@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './api/chemicals.js';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <p className="App-intro">
           Our family pool and spa chemical inventory system.
         </p>
+
       </div>
     );
   }
