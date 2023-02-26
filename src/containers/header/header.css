@@ -1,0 +1,18 @@
+
+.app__header {
+  background-image: url('../../assets/pool-spa.jpg');
+  background-size: cover;
+  height: 150px;
+  padding: 20px;
+  color: #000;
+}
+
+.app__header-title {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  /* or 121% */
+
+  letter-spacing: -0.04em;
+}

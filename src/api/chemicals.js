@@ -1,8 +1,3 @@
-import $ from 'jquery';
-window.jQuery = $;
-window.$ = $;
-global.jQuery = $;
-
   var chemicals = {
   "taxes" : [
     {
@@ -229,17 +224,3 @@ global.jQuery = $;
     }
   ] 
 };
-
-$(chemicals.products).each(function(){
-  console.log(this.name);
-$('#chemicals').prepend('<option value="' + this.name + '">' + this.name + '</option>');
-});
-
-(function() {
-
-  document.getElementById('chemicals').addEventListener('change', function(){
-      var selectedValue = document.getElementById('chemicals').value;
-    console.log('Really: ' + selectedValue);
-  });
-})();
-  
