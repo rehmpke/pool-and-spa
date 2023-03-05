@@ -15,14 +15,21 @@
   margin-right: 5rem;
 }
 
-.app__header-title {
+.app__header-content h1 {
   color: #1464db;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
   font-family: var(--font-family);
   font-weight: 800;
   font-size: 62px;
   line-height: 75px;
-  /* or 121% */
-
   letter-spacing: -0.04em;
+}
+
+.app__header-content p {
+  color: #f9f9f9;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 30px;
 }

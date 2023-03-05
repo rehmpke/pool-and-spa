@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="app__header section__padding" id="home">
       <div className="app__header-content">
-        <h1 className="app__header-title">Pool and Spa Inventory</h1>
+        <h1>Pool and Spa Inventory</h1>
         <p>Our family pool and spa chemical inventory system.</p>
       </div>
     </div>
