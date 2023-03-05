@@ -1,6 +1,5 @@
-
 .app__header {
-  background-image: url('../../assets/pool-spa.jpg');
+  background-image: url("../../assets/pool-spa.jpg");
   background-size: cover;
   padding: 20px;
   display: flex;
