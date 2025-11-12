@@ -1,5 +1,5 @@
 import React from 'react';
-import poolSpa from '../assets/pool-spa.webp'
+import poolSpa from '../../assets/pool-spa.webp'
 import './header.css';
 function Header() {
   return (
